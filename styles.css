@@ -1,0 +1,95 @@
+*{
+
+
+    margin:0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.login-container-content {
+    background-color: #3a3a3aa2;
+    color: inherit;
+    padding: 15px 20px 20px 20px;
+    border-color: #FFEB3B;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+}
+.login-container {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.login.login-container {
+    width: 300px;
+}
+.wrapper.login-container {
+    margin-top: 140px;
+}
+.logo-badge {
+    color: #e6e6e6;
+    font-size: 80px;
+    font-weight: 800;
+    letter-spacing: -10px;
+    margin-bottom: 0;
+}
+
+.login-title {
+    text-align: center;
+}
+
+.r2 {
+    display:grid;
+    padding: 2em 0ex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1em;
+    justify-items: center;
+    width: 80%;
+    margin: 0px auto;
+    height: 100%;
+}
+
+.r3 {
+    text-align: center;
+}
+
+.contact-container {
+    padding: 15px 20px 20px 20px;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 0;
+    justify-content: center;
+  }
+
+  .contact-container-content {
+    max-width: 400px;
+    z-index: 100;
+    margin: 0 auto;
+    padding-top: 100px;
+  }
+
+  .primary-color {
+      background-color: #9BC1BC;
+  }
+
+  .logo-image {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    .footer {
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 2.5rem; 
+    }
+    .second-font-color {
+        color: #F4F1BB
+    }
